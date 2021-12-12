@@ -9,7 +9,13 @@ const Home = props => {
   return (
     <>
       <h1>Home</h1>
-      <button onClick={handleClick}>go to profile</button>
+      <button
+        onClick={() => {
+          handleClick;
+        }}
+      >
+        go to profile
+      </button>
     </>
   );
 };
